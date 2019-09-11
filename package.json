@@ -1,0 +1,24 @@
+{
+  "name": "ownDeepEquals",
+  "version": "1.0.0",
+  "description": "Creating a function to compare deep equality of objects and arrays (JS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luke9090/ownDeepEquals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luke9090/ownDeepEquals/issues"
+  },
+  "homepage": "https://github.com/Luke9090/ownDeepEquals#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
