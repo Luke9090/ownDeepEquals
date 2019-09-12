@@ -8,7 +8,7 @@ function deepEqual(item1, item2) {
   if (!keys1.every(key => keys2.includes(key))) return false; // If item2 does not include all the same keys as item2, they are not equal
 
   for (let i = 0; i < keys1.length; i++) {
-    // Iterate through the keys of item1
+    // Iterate through the keys of item1, recursively call deepEqual on each value pair, returning false if any value is not deeply equal to its mirror in item2
     const currValue1 = item1[keys1[i]];
     const currValue2 = item2[keys1[i]];
     if (!deepEqual(currValue1, currValue2)) return false;
